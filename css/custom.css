@@ -5,10 +5,14 @@
     Created on : 21.04.2015, 08:47:50
     Author     : Peter Vondracek, Patrick Schmidt, Yves Künzli, Domenick Dickmann
 */
+body {
+  background-color: #000;  
+}
 
 .vatternav {
     max-width: 850px;
     margin-left: auto ;
     margin-right: auto ;
+    
 }
 
