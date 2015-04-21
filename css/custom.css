@@ -16,3 +16,10 @@ body {
     
 }
 
+.pagebox {
+	max-width: 850px;
+    margin-left: auto ;
+    margin-right: auto ;
+	
+}
+
