@@ -5,14 +5,62 @@
     Created on : 21.04.2015, 08:47:50
     Author     : Peter Vondracek, Patrick Schmidt, Yves Künzli, Domenick Dickmann
 */
-body {
-  background-color: #000;  
-}
 
 .vatternav {
     max-width: 850px;
     margin-left: auto ;
     margin-right: auto ;
     
+}
+
+.container {
+    max-width: 850px;
+}
+
+html,body{
+    height:100%;
+    background-color: #000;  
+}
+.carousel,.item,.active{
+    height:100%;
+}
+.carousel-inner{
+    height:100%;
+}
+.fill{
+    max-width:880px;
+    height:250px;
+    background-position:center;
+    background-size:cover;
+    border-radius: 18px;
+}
+
+.carousel-inner > .item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left;
+}
+
+.circle-box {
+    max-width:850px;
+    padding-top:40px;
+    border-radius: 18px;
+    background-color: #e3e3e3;
+}
+
+.circle-box-outer {
+    padding-top:20px;
+}
+.circle-image {
+    padding-top:50px;
+    alignment-adjust: middle;
+}
+
+@media (max-width: 767px) { 
+	body {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
