@@ -13,6 +13,7 @@
     
 }
 
+<<<<<<< HEAD
 .container {
     max-width: 850px;
 }
@@ -62,5 +63,12 @@ html,body{
 		padding-left: 0;
 		padding-right: 0;
 	}
+=======
+.pagebox {
+	max-width: 850px;
+    margin-left: auto ;
+    margin-right: auto ;
+	
+>>>>>>> dc100d3b1bd09df2de1bc09f4672146311a1a4e5
 }
 
