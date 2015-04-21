@@ -87,6 +87,16 @@ html,body{
 		padding-left: 0;
 		padding-right: 0;
 	}
+<<<<<<< HEAD
+=======
+}
+
+.pagebox {
+	max-width: 850px;
+    margin-left: auto ;
+    margin-right: auto ;
+	
+>>>>>>> origin/master
 }
 
 @media (max-width:1000px) {
