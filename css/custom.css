@@ -6,3 +6,9 @@
     Author     : Peter Vondracek, Patrick Schmidt, Yves Künzli, Domenick Dickmann
 */
 
+.vatternav {
+    width: 850px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+
