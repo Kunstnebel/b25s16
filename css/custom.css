@@ -13,7 +13,6 @@
     
 }
 
-<<<<<<< HEAD
 .container {
     max-width: 850px;
 }
@@ -28,12 +27,37 @@ html,body{
 .carousel-inner{
     height:100%;
 }
-.fill{
+
+.fill {
     max-width:880px;
+    background-size: cover;
     height:250px;
     background-position:center;
-    background-size:cover;
+    border-radius: 18px; 
+}
+.fill1{
+    max-width:880px;
+    background-size: cover;
+    height:250px;
+    background-position:center;
     border-radius: 18px;
+    background-image:url('../pictures/slider1.jpg');
+}
+.fill2{
+    max-width:880px;
+    background-size: cover;
+    height:250px;
+    background-position:center;
+    border-radius: 18px;
+    background-image:url('../pictures/slider1.jpg');
+}
+.fill3{
+    max-width:880px;
+    background-size: cover;
+    height:250px;
+    background-position:center;
+    border-radius: 18px;
+    background-image:url('../pictures/slider1.jpg');
 }
 
 .carousel-inner > .item {
@@ -63,12 +87,23 @@ html,body{
 		padding-left: 0;
 		padding-right: 0;
 	}
-=======
-.pagebox {
-	max-width: 850px;
-    margin-left: auto ;
-    margin-right: auto ;
-	
->>>>>>> dc100d3b1bd09df2de1bc09f4672146311a1a4e5
 }
 
+@media (max-width:1000px) {
+    .fill1 {
+       background-image:url('http://placehold.it/880x250');
+    }
+    .fill2 {
+       background-image:url('http://placehold.it/880x250');
+    }
+    .fill3 {
+       background-image:url('http://placehold.it/880x250');
+    }
+    
+}
+        
+.pagebox {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;	
+}
